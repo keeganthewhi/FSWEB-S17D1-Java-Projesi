@@ -1,27 +1,21 @@
-#  Java Spring Boot Introduction
+# Spring Boot Introduction
 
-### Proje Kurulumu
+> Full Stack Web Development Bootcamp — Sprint 17, Day 1
 
-Projeyi öncelikle forklayın ve clone edin.
-Daha sonra projeyi IntellijIDEA kullanarak açınız. README.md dosyasını dikkatli bir şekilde okuyarak istenenleri yapmaya çalışın.
-Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projelerimizi belli klasör kalıplarında saklamak işimizi kolaylaştırmak adına iyi bir alışkanlıktır.
-Örnek bir Lokasyon: Workintech/Sprint_1/Etud.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 
-### Hedeflerimiz:
+## About
 
-### Spring Boot Projesi oluşturma
+An introduction to the Spring Boot framework, covering project setup, auto-configuration, and building a basic application. This assignment marks the transition from core Java to enterprise-level web development.
 
- * Spring Initializr kullanarak bir Spring Boot projesi oluşturun.
- * İçerisinde ```Spring Web``` dependency eklenmeli.
- * Maven dependency management sistemini kullanarak tüm dependencyleri install edin.
- * Uygulamanızı  ```8585``` portundan ayağa kaldırın.
- * Spring devtools kullanarak uygulamanızın her değişim sonrasında kendisini restart etmesini sağlayınız.
- * Uygulamanızda ```application.properties``` dosyasına birkaç tane değer tanımlayıp, bunları ```Value``` annotation kullanarak çağırın.
- * ```AnimalController``` isimli bir sınıf oluşturunuz. Controller olarak görev yapacağından dolayı gerekli annotation ile işaretleyin.
- * Controller sınıfı içerisinde bir adet ```animals``` adında Map tanımlayın. ```Map<Integer, Animal>``` şeklinde değer almalı.
- * Amacımız CRUD işlemlerini tanımlayan endpointler yazarak bir Rest Api tanımlamak. 
- * [GET]/workintech/animal => tüm animal mapinin value değerlerini ```List``` olarak döner.
- * [GET]/workintech/animal/{id} => ilgili id deki animal mapte varsa value değerini döner.
- * [POST]/workintech/animal => ```integer id``` ve ```String name``` değerlerini alır ve animals mapine ekler.
- * [PUT]/workintech/animal/{id} => İlgili id deki map değerini ```Request Body``` içerisinden aldığı id değeri ile günceller.
- * [DELETE]/workintech/animal/{id} => İlgili id değerini mapten siler.
+## Key Concepts
+
+- Spring Boot project structure and starter dependencies
+- Auto-configuration and `@SpringBootApplication`
+- Application properties and configuration
+- Running and testing a Spring Boot application
+
+## Bootcamp
+
+Part of the **Full Stack Web Development** program at [Workintech](https://www.workintech.com.tr/).
